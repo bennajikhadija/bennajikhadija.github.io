@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            overflow: hidden;
+            color: white;
+        }
+
+        video {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            min-width: 100%;
+            min-height: 100%;
+           object-fit: cover;
+            z-index: -1;
+        }
+
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 20px 10%;
+            background: transparent;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 100;
+        }
+
+        .nav a {
+            font-size: 18px;
+            color: #ededed;
+            text-decoration: none;
+            font-weight: 500;
+            margin-left: 35px;
+          
+        }
+
+        
+        .nav a.active {
+            color: lightpink;
+            font-style: italic;
+            text-decoration: underline;
+        }
+
+        .home {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            padding: 0 10%;
+            z-index: 10;
+        }
+
+        .home-content h1 {
+          position: relative;
+            font-size: 56px;
+            font-weight: 500;
+            color: #ffffff; /* Texte en blanc */
+        }
+
+        .home-content span {
+            color: rgb(224, 42, 127);
+            font-family: 'cursive', serif;
+        }
+
+        .home-content h3 {
+            font-size: 32px;
+            font-weight: 500;
+            color: lightpink;
+        }
+
+        .home-content p {
+            font-size: 16px;
+            margin: 20px 0 40px;
+            line-height: 1.2;
+        }
+
+        .hire {
+            display: flex;
+            gap: 20px;
+        }
+
+        .hire a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 150px;
+            height: 50px;
+            background: lightpink;
+            border: 2px solid lightpink;
+            border-radius: 8px;
+            font-size: 19px;
+            color: #081b29;
+            text-decoration: none;
+            font-weight: 600;
+            transition: 0.5s;
+        }
+
+    
+
+        .hire a:hover {
+            background: transparent;
+            color: lightpink;
+        }
+
+        .home-sci {
+            position: absolute;
+            bottom: 48px;
+            width: 170px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .home-sci a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            width: 40px;
+            height: 40px;
+            background: transparent;
+            border: 2px solid lightpink;
+            border-radius: 50%;
+            font-size: 20px;
+            color: lightpink;
+            z-index: 1;
+        }
+.about{
+  height: 100vh;
+  display: flex;
+  
+  align-items: center;
+  padding: 0 10%;
+}
+.about-content{
+  background-color: transparent;
+  max-width: 600px;
+}
+.about-content h1{
+  font-size: 45px;
+  font-weight: 700;
+  
+}
+.spa{
+  font-size:30px;
+  color: rgb(224, 42, 127);
+}
+.about-content p{
+  font-size:25px;
+  margin:20px 0 40px;
+  line-height:1.2;
+}
+.skills{
+  height: 100vh;
+  display: flex;
+  
+  align-items: center;
+  padding: 0 10%;
+}
+.skills-content{
+  background-color: transparent;
+  max-width: 600px;
+}
+.skills-content h1{
+  font-size: 45px;
+  font-weight: 700;
+  
+}
+.skills-content p{
+  font-size:25px;
+  margin:20px 0 40px;
+  line-height:1.2;
+}
+li{
+  font-size: 25px;
+}
+.projects{
+  height: 100vh;
+  display: flex;
+  
+  align-items: center;
+  padding: 0 10%;
+}
+.projects-content{
+  background-color: transparent;
+  max-width: 600px;
+}
+.projects-content h1{
+  font-size: 45px;
+  font-weight: 700;
+  
+}
+.projects-content p{
+  font-size:25px;
+  margin:20px 0 40px;
+  line-height:1.2;
+}
+.contact{
+  height: 100vh;
+  display: flex;
+
+  align-items: center;
+  padding: 0 10%;
+  }
+  .contact-content{
+    font-size:16px;
+margin:20px 30% 40px;
+line-height:1.2;
+  }
+  .contact-content h1{
+  font-size: 40px;
+  font-weight: 500;
+  }
+  fieldset{
+    border-color:pink;
+    padding: 20px
+  
+  
+  }
+  legend{
+    color:white ;
+    text-align: center;
+    font-weight: 700;
+  }
+  input,textarea{
+    background-color:rgb(241, 215, 219);
+    border-radius: 10px;
+    border: 2px solid #081b29;
+    margin: 5px;
+  }
+  label{
+    color: pink;
+  }
+  .sub{
+    padding: 2px;
+    border-radius: 5px;
+    border: 1px;
+  }
